@@ -34,7 +34,8 @@ int yywrap()
 return 1;
 }
 ```
-```EX.y:
+```
+EX.y:
 %{
 #include<stdio.h>
 /* This YACC program is for recognising the Expression*/
